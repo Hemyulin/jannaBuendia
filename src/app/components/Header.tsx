@@ -1,5 +1,6 @@
 import styles from "./Header.module.css"
 import Link from "next/link"
+// import { ProductCard } from "./product_card/product_card.component.jsx"
 
 export const Header = () => {
     return <header className={styles.Header}>Janna Buendia
@@ -10,5 +11,7 @@ export const Header = () => {
             <a href="-">Blog</a>
             <a href="-">About</a>
         </div>
+        {/* <ProductCard /> */}
     </header>
 }
+
