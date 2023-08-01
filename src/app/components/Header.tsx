@@ -5,13 +5,12 @@ import Link from "next/link";
 export const Header = () => {
   return (
     <header className={styles.Header}>
-      Janna Buendia
+      <Link href="/">Janna Buendia</Link>
       <div className={styles.links}>
         <Link href="/">HOME</Link>
-        <Link href="_">Portfolio</Link>
-        <Link href="_">Blog</Link>
+        <Link href="/portfolio">Portfolio</Link>
         <Link href="/about">About</Link>
-        <Link href="_">Contact</Link>
+        <Link href="/contact">Contact</Link>
       </div>
       {/* <ProductCard /> */}
     </header>
