@@ -6,19 +6,19 @@ import React from "react";
 // this interface is used in the function parameters
 
 interface ProductCardProps {
-  img: string;
-  title: string;
-  size: string;
+    img: string;
+    title: string;
+    size: string;
 }
 
 const ProductCard = (props: ProductCardProps) => {
-  return (
-    <div className="product-card">
-      <img src={props.img} alt="Product" />
-      <h3>{props.title}</h3>
-      <p>{props.size}</p>
-    </div>
-  );
+    return (
+        <div className="product-card">
+            <img src={props.img} alt="Product" />
+            <h3>{props.title}</h3>
+            <p>{props.size}</p>
+        </div>
+    );
 };
 
 export default ProductCard;
